@@ -2,155 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410b07ca-de80-402a-bcaf-2b5745c01573" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_dblock_waffle_waffle_jna_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_2_12_3_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_hikaricp_2_12_3_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_2_5_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_4_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_platform_4_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_postgresql_postgresql_9_4_1200_jdbc41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_21_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_simple_1_7_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/soc-hack-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/soc-hack-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/soc-hack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/soc-hack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$48364d162cbccd5d74d4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$48364d162cbccd5d74d4.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$48364d162cbccd5d74d4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4a369954367fa16b397e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4a369954367fa16b397e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4a369954367fa16b397e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$66168070bd6eb6a0d6d1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$66168070bd6eb6a0d6d1.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$66168070bd6eb6a0d6d1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad4fd740328d7b92edb0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad4fd740328d7b92edb0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad4fd740328d7b92edb0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c65373df341739df26ff$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c65373df341739df26ff.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c65373df341739df26ff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6e084995274bb743d7c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6e084995274bb743d7c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6e084995274bb743d7c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/Server.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/configs/Config.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/configs/Json4sSupport.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/configs/Json4sSupport.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/configs/Postgres.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/daos/AuthDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/daos/AuthDao.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/daos/MessageDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/daos/MessageDao.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/models/ApiKeyModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/models/ApiKeyModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/models/MessageModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/models/MessageModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/models/ServiceResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/models/ServiceResponse.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/routes/AuthRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/routes/AuthRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/routes/MessageRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/routes/MessageRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/services/AuthService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/services/AuthService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/configs/Mongo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/configs/Mongo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/models/RequestModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/models/RequestModel.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/services/HttpService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/services/HttpService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/services/MessageService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/services/MessageService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/Server$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/Server$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Configs$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Configs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$$anonfun$throwCause$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$$anonfun$throwCause$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty$False$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty$False$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty$True$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty$True$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport$ShouldWritePretty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Json4sSupport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Postgres$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/Postgres.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/UUIDSerializer$$anonfun$deserialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/UUIDSerializer$$anonfun$deserialize$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/UUIDSerializer$$anonfun$serialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/UUIDSerializer$$anonfun$serialize$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/UUIDSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/configs/UUIDSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/AuthDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/AuthDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/AuthDaoImpl$Keys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/AuthDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/AuthDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/MessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/MessageDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/MessageDaoImpl$Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/MessageDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/daos/MessageDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ApiKeyModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ApiKeyModel$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ApiKeyModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ApiKeyModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ApiKeyParamsModel$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ApiKeyParamsModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/KeyPermissions$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/KeyPermissions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageCalcRequestModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageCalcRequestModel$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageCalcRequestModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageCalcRequestModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageModel$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageParamsModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageParamsModel$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageParamsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageParamsModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageResponseModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageResponseModel$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageResponseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/MessageResponseModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ServiceResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ServiceResponse$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ServiceResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/ServiceResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/StatusType$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/models/StatusType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/routes/AuthRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/routes/AuthRoutes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/routes/MessageRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/routes/MessageRoutes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/AuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/AuthServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/HandleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/HandleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/HttpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/HttpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/MessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/MessageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-debian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-debian.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-docker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-docker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-linux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-rpm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-rpm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-universal-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-universal-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-universal-src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-universal-src.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-universal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-universal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack$sources-windows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-debian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-debian.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-docker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-docker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-linux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-rpm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-rpm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-universal-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-universal-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-universal-src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-universal-src.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-universal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-universal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/soc-hack-soc-hack_2.12-windows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/soc-hack/soc-hack_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/data/data.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -169,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="64" column="52" lean-forward="true" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+            <state relative-caret-position="153">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
               <folding>
                 <element signature="e#27#76#0" expanded="true" />
               </folding>
@@ -181,11 +37,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/services/AuthService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="88" column="6" lean-forward="true" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
               <folding>
                 <element signature="e#27#55#0" expanded="true" />
               </folding>
@@ -196,8 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/MessageModel.scala">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/extraSettingModel.scala">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -226,7 +100,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/ApiKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/daos/MessageRepository.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/extraSettingModel.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/RequestModel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/ResponseModel.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/configs/Config.scala" />
@@ -242,13 +115,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/routes/MessageRoutes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/routes/AuthRoutes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/daos/MessageDao.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/hack/configs/Mongo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/ApiKeyModel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/ServiceResponse.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/services/MessageService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/services/AuthService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/daos/AuthDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/hack/configs/Mongo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/hack/models/RequestModel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -272,84 +147,6 @@
               <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
               <item name="hack-project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soc-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hack-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -358,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557646936292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557649432178" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../task01" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
@@ -471,8 +268,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.36514524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20746888" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2033195" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39834026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -499,11 +296,11 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32987553" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.36514524" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.27593362" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.47510374" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39834026" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -622,34 +419,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/extraSettingModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/daos/MessageDao.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/configs/Mongo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#26#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/ApiKeyModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -694,37 +467,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/configs/Mongo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+          <folding>
+            <element signature="e#26#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/ApiKeyModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/RequestModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/MessageModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/extraSettingModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/services/AuthService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        <state relative-caret-position="400">
+          <caret line="88" column="6" lean-forward="true" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
           <folding>
             <element signature="e#27#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/models/MessageModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="64" column="52" lean-forward="true" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+        <state relative-caret-position="153">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding>
             <element signature="e#27#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>

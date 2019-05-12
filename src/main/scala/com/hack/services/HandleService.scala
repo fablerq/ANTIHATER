@@ -22,7 +22,7 @@ class HandleServiceImpl(authService: AuthService,
   def handleRequest(request: RequestModel): Future[Either[ServiceResponse,
                                                           List[MessageResponseModel]
                                                           ]] = {
-    authService.checkKey(request.apiKey.keyTitle, "standard").map {
+    authService.checkKey(request.apiKey, "standard").map {
       case x if x.status =>
         val messages: List[String] = request.messages.map(x => x.body)
         writeToFile(messages)
@@ -36,7 +36,7 @@ class HandleServiceImpl(authService: AuthService,
             responseMessage.body,
             requestMessage.extraSettings)
           data.map { message =>
-            messageService.addMessage(request.apiKey.keyTitle,
+            messageService.addMessage(request.apiKey,
                                       message.body,
                                       message.classifier)
           }
@@ -57,13 +57,14 @@ class HandleServiceImpl(authService: AuthService,
 
   def calcClassifier(messages: List[String]): List[MessageCalcRequestModel] = {
     s"python hackathon.py".!
-    val data =
-      parse(Source.fromFile("src/main/scala/data/data.json").mkString)
-    val list: List[MessageCalcRequestModel] = for {
-      JObject(x) <- data
-      JField("body", JString(body)) <- x
-      JField("classifier", JString(classifier)) <- x
-    } yield MessageCalcRequestModel(classifier.toInt, body)
-    list
+//    val data =
+//      parse(Source.fromFile("src/main/scala/data/data2.txt").mkString)
+//    val list: List[MessageCalcRequestModel] = for {
+//      JObject(x) <- data
+//      JField("body", JString(body)) <- x
+//      JField("classifier", JString(classifier)) <- x
+//    } yield MessageCalcRequestModel(classifier.toInt, body)
+    messages.map(s => MessageCalcRequestModel(1,s))
+    //list
   }
 }

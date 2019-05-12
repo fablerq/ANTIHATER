@@ -1,6 +1,6 @@
 package com.hack.configs
 
-import com.hack.models.{ApiKeyModel, MessageModel, ServiceResponse}
+import com.hack.models.{ApiKeyModel, MessageModel, ServiceResponse, extraSettingModel}
 import com.mongodb.MongoCredential._
 import com.mongodb.{MongoCredential, ServerAddress}
 import com.mongodb.connection.{ClusterSettings, ConnectionPoolSettings}

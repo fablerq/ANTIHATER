@@ -1,6 +1,6 @@
 package com.hack.models
 
 case class RequestModel (
-    apiKey: ApiKeyModel,
+    apiKey: String,
     messages: List[MessageParamsModel]
 )
