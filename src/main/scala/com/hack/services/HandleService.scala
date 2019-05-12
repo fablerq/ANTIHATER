@@ -4,10 +4,12 @@ import java.io.{BufferedWriter, File, FileWriter}
 
 import com.hack.models._
 import net.liftweb.json.{JsonAST, _}
+
 import sys.process._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import scala.io.Source
+import scala.util.Random
 
 trait HandleService {
   def handleRequest(request: RequestModel): Future[Either[ServiceResponse,
@@ -56,16 +58,16 @@ class HandleServiceImpl(authService: AuthService,
   }
 
   def calcClassifier(messages: List[String]): List[MessageCalcRequestModel] = {
-    s"python src/main/scala/data/script.py".!
-    val data =
-      parse(Source.fromFile("src/main/scala/data/result.json").mkString)
-    println("hey!")
-    println(data)
-    val list: List[MessageCalcRequestModel] = for {
-      JObject(x) <- data
-      JField("body", JString(body)) <- x
-      JField("classifier", JString(classifier)) <- x
-    } yield MessageCalcRequestModel(classifier.toInt, body)
-    list
+    s"python hackathon.py".!
+    //s"python src/main/scala/data/script.py".!
+//    val data =
+//      parse(Source.fromFile("src/main/scala/data/data2.txt").mkString)
+//    val list: List[MessageCalcRequestModel] = for {
+//      JObject(x) <- data
+//      JField("body", JString(body)) <- x
+//      JField("classifier", JString(classifier)) <- x
+//    } yield MessageCalcRequestModel(classifier.toInt, body)
+    messages.map(s => MessageCalcRequestModel(Random.nextInt(2),s))
+    //list
   }
 }

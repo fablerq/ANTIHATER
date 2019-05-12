@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 17 sources: invalidated sources (17) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 17 Scala sources to C:\ScalaProjects\socialhack\hack-project\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.8. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.8.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_4946e3bf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes;C:\Users\tolik\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_4d848f6b\jars\org.scala-sbt\compiler-interface\compiler-interface-1.2.5.jar;C:\Users\tolik\AppData\Local\Temp\sbt_4d848f6b\jars\org.scala-sbt\util-interface\util-interface-1.2.2.jar;C:\Users\tolik\AppData\Local\Temp\sbt_4d848f6b\srcs\org.scala-sbt\compiler-bridge_2.12\compiler-bridge_2.12-1.2.5-sources.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.8.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.8.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar;C:\Users\tolik\.ivy2\cache\jline\jline\jars\jline-2.14.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tolik\AppData\Local\Temp\sbt_1fbfd507\xsbt\ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 57.078s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 70a4b08b for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes;C:\Users\tolik\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\ScalaProjects\socialhack\hack-project\target\scala-2.12\classes;C:\Users\tolik\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.21.jar;C:\Users\tolik\.ivy2\cache\com.typesafe\config\bundles\config-1.3.3.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\bundles\scala-java8-compat_2.12-0.8.0.jar;C:\Users\tolik\.ivy2\cache\com.typesafe.akka\akka-http_2.12\jars\akka-http_2.12-10.1.7.jar;C:\Users\tolik\.ivy2\cache\com.typesafe.akka\akka-http-core_2.12\jars\akka-http-core_2.12-10.1.7.jar;C:\Users\tolik\.ivy2\cache\com.typesafe.akka\akka-parsing_2.12\jars\akka-parsing_2.12-10.1.7.jar;C:\Users\tolik\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\jars\akka-stream_2.12-2.5.21.jar;C:\Users\tolik\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.12\jars\akka-protobuf_2.12-2.5.21.jar;C:\Users\tolik\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.2.jar;C:\Users\tolik\.ivy2\cache\com.typesafe\ssl-config-core_2.12\bundles\ssl-config-core_2.12-0.3.7.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.1.1.jar;C:\Users\tolik\.ivy2\cache\ch.megard\akka-http-cors_2.12\jars\akka-http-cors_2.12-0.4.0.jar;C:\Users\tolik\.ivy2\cache\org.json4s\json4s-jackson_2.12\jars\json4s-jackson_2.12-3.6.5.jar;C:\Users\tolik\.ivy2\cache\org.json4s\json4s-core_2.12\jars\json4s-core_2.12-3.6.5.jar;C:\Users\tolik\.ivy2\cache\org.json4s\json4s-ast_2.12\jars\json4s-ast_2.12-3.6.5.jar;C:\Users\tolik\.ivy2\cache\org.json4s\json4s-scalap_2.12\jars\json4s-scalap_2.12-3.6.5.jar;C:\Users\tolik\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\tolik\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.9.8.jar;C:\Users\tolik\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.9.0.jar;C:\Users\tolik\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.9.8.jar;C:\Users\tolik\.ivy2\cache\net.liftweb\lift-json_2.12\jars\lift-json_2.12-3.3.0.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.12.8.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.8.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.8.jar;C:\Users\tolik\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar;C:\Users\tolik\.ivy2\cache\org.mongodb.scala\mongo-scala-driver_2.12\jars\mongo-scala-driver_2.12-2.1.0.jar;C:\Users\tolik\.ivy2\cache\org.mongodb.scala\mongo-scala-bson_2.12\jars\mongo-scala-bson_2.12-2.1.0.jar;C:\Users\tolik\.ivy2\cache\org.mongodb\mongodb-driver-async\jars\mongodb-driver-async-3.4.2.jar;C:\Users\tolik\.ivy2\cache\org.mongodb\bson\jars\bson-3.4.2.jar;C:\Users\tolik\.ivy2\cache\org.mongodb\mongodb-driver-core\jars\mongodb-driver-core-3.4.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 109.846054452 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
