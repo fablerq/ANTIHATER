@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410b07ca-de80-402a-bcaf-2b5745c01573" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/HandleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/hack/services/HandleServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+            <state relative-caret-position="68">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding>
                 <element signature="e#27#76#0" expanded="true" />
               </folding>
@@ -170,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557654224306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557654909579" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../task01" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
@@ -539,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/hack/services/HandleService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        <state relative-caret-position="68">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding>
             <element signature="e#27#76#0" expanded="true" />
           </folding>

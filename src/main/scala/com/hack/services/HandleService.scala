@@ -56,7 +56,7 @@ class HandleServiceImpl(authService: AuthService,
   }
 
   def calcClassifier(messages: List[String]): List[MessageCalcRequestModel] = {
-    s"python script.py".!
+    s"python src/main/scala/data/script.py".!
     val data =
       parse(Source.fromFile("src/main/scala/data/result.json").mkString)
     val list: List[MessageCalcRequestModel] = for {
