@@ -1,24 +1,26 @@
 package com.hack.services
 
 import akka.http.scaladsl.server.Directives._
-import ch.megard.akka.http.cors.scaladsl.CorsDirectives._
-import com.hack.daos.{AuthDao, AuthDaoImpl, MessageDaoImpl}
+import com.hack.daos.{AuthDao, AuthDaoImpl, MessageDao, MessageDaoImpl}
 import com.hack.routes.{AuthRoutes, HandleRoutes, MessageRoutes}
-import slick.driver.PostgresDriver.api._
+import org.mongodb.scala.MongoDatabase
 
-class HttpService(db: Database) {
+
+class HttpService(database: MongoDatabase) {
+
+  val authDao = new AuthDaoImpl(database.getCollection("keys"))
 
   val authService =
-    new AuthServiceImpl(
-      new AuthDaoImpl(db)
-    )
+    new AuthServiceImpl(authDao)
 
   val authRoutes =
     new AuthRoutes(authService)
 
+  val messageDao = new MessageDaoImpl(database.getCollection("messages"))
+
   val messageService =
     new MessageServiceImpl(
-      new MessageDaoImpl(db),
+      messageDao,
       authService
     )
 
@@ -37,4 +39,5 @@ class HttpService(db: Database) {
     pathPrefix("api") {
       handleRoutes.route ~ messageRoutes.route ~ authRoutes.route
     }
+
 }

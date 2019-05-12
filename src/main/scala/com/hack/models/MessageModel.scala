@@ -1,7 +1,9 @@
 package com.hack.models
 
+import org.mongodb.scala.bson.ObjectId
+
 case class MessageModel(
-                  id: Long,
+                  id: ObjectId,
                   classifier: Int,
                   body: String,
                        )

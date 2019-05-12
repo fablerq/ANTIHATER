@@ -1,28 +1,22 @@
 package com.hack.models
 
-import slick.driver.PostgresDriver.api._
-import com.hack.models.KeyPermissions.KeyPermissions
+import org.mongodb.scala.bson.ObjectId
 
 case class ApiKeyModel(
-            id: Long,
+            _id: ObjectId,
             keyTitle: String,
-            permissions: KeyPermissions,
+            permissions: String,
             currentRequests: Int,
             dayLimit: Int
             )
 
-case class ApiKeyParamsModel(
-                keyTitle: String,
-                permissions: List[KeyPermissions],
-                dayLimit: Int
-                      )
 
 //object KeyPermissions extends Enumeration {
 //  type KeyPermissions = Value
 //  val doHandle, checkMessages, checkKeys, createKeys = Value
 //}
 
-object KeyPermissions extends Enumeration {
-  type KeyPermissions = Value
-  val STANDARD, MODERATOR, ADMIN = Value
-}
+//object KeyPermissions extends Enumeration {
+//  type KeyPermissions = Value
+//  val STANDARD, MODERATOR, ADMIN = Value
+//}

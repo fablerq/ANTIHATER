@@ -9,10 +9,10 @@ import com.hack.configs.Json4sSupport._
 class AuthRoutes(authService: AuthService) {
   def route = cors() {
     path("auth") {
-      parameters("key".as[String]) {
-        key =>
+      parameters("key".as[String], "permission".as[String], "dayLimit".as[Int]) {
+        (key, permission, dayLimit) =>
           post {
-            complete(authService.getAll(key))
+            complete(authService.createKey(permission, dayLimit, key))
           }
       } ~
       parameters("key".as[String], "title".as[String]) {
@@ -24,12 +24,12 @@ class AuthRoutes(authService: AuthService) {
             complete(authService.deleteKey(key, title))
           }
       } ~
-        parameters("key".as[String], "permission".as[String], "dayLimit".as[Int]) {
-          (key, permission, dayLimit) =>
-            post {
-              complete(authService.createKey(permission, dayLimit, key))
-            }
-        }
+      parameters("key".as[String]) {
+        key =>
+          post {
+            complete(authService.getAll(key))
+          }
+      }
     }
   }
 }

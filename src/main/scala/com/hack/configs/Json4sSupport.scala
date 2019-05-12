@@ -3,15 +3,16 @@ package com.hack.configs
 import java.lang.reflect.InvocationTargetException
 import java.util.UUID
 
-import akka.http.scaladsl.marshalling.{ Marshaller, ToEntityMarshaller }
+import akka.http.scaladsl.marshalling.{Marshaller, ToEntityMarshaller}
 import akka.http.scaladsl.model.MediaTypes.`application/json`
 import akka.http.scaladsl.model._
-import akka.http.scaladsl.unmarshalling.{ FromEntityUnmarshaller, Unmarshaller }
+import akka.http.scaladsl.unmarshalling.{FromEntityUnmarshaller, Unmarshaller}
 import akka.stream.Materializer
 import akka.util.ByteString
-import org.json4s.JsonAST.{ JString, JValue }
+import org.json4s.JsonAST.{JString, JValue}
 import org.json4s.reflect.TypeInfo
-import org.json4s.{ DefaultFormats, Formats, MappingException, Serialization, Serializer, jackson }
+import org.json4s.{DefaultFormats, Formats, MappingException, Serialization, Serializer, jackson}
+import org.mongodb.scala.bson.ObjectId
 
 import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
@@ -28,6 +29,7 @@ class UUIDSerializer extends Serializer[UUID] {
 
   def serialize(implicit format: Formats): PartialFunction[Any, JValue] = {
     case x: UUID => JString(x.toString)
+    case y: ObjectId => JString(y.toString)
   }
 }
 

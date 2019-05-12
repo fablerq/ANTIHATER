@@ -1,12 +1,11 @@
 package com.hack.services
 
 import com.hack.daos.AuthDao
-import com.hack.models.KeyPermissions.KeyPermissions
-import com.hack.models.{ApiKeyModel, KeyPermissions, ServiceResponse, StatusType}
+import com.hack.models.{ApiKeyModel, ServiceResponse}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
-import com.hack.models.KeyPermissions.KeyPermissions
+import org.mongodb.scala.bson.ObjectId
 
 import scala.util.Random
 
@@ -17,18 +16,18 @@ trait AuthService {
                 dayLimit: Int,
                 key: String): Future[Either[ServiceResponse, ApiKeyModel]]
   def deleteKey(key: String, title: String): Future[ServiceResponse]
-  def checkKey(keyTitle: String, permission: KeyPermissions): Future[ServiceResponse]
+  def checkKey(keyTitle: String, permission: String): Future[ServiceResponse]
 }
 
 class AuthServiceImpl(dao: AuthDao) extends AuthService {
 
   def getAll(key: String): Future[Either[ServiceResponse, Seq[ApiKeyModel]]] = {
-    checkKey(key, KeyPermissions.ADMIN).flatMap {
-      case x if x.status == StatusType.Success =>
+    checkKey(key, "admin").flatMap {
+      case x if x.status =>
         dao.getAll.map {
           case x: Seq[ApiKeyModel] if x.nonEmpty => Right(x)
           case _ =>
-            Left(ServiceResponse(StatusType.Failure, Some("Error. There are nokeys")))
+            Left(ServiceResponse(false, Some("Error. There are nokeys")))
         }
       case x =>
         Future.successful(Left(x))
@@ -36,75 +35,68 @@ class AuthServiceImpl(dao: AuthDao) extends AuthService {
   }
 
   def getSingle(title: String, key: String): Future[Either[ServiceResponse, ApiKeyModel]] = {
-    checkKey(key, KeyPermissions.ADMIN).flatMap {
-      case x if x.status == StatusType.Success =>
+    checkKey(key, "admin").flatMap {
+      case x if x.status =>
         dao.getSingle(title).map {
-          case Some(x) => Right(x)
-          case None =>
-            Left(ServiceResponse(StatusType.Failure, None))
+          case x if x != null => Right(x)
+          case _ =>
+            Left(ServiceResponse(false, Some("Error. Not found")))
         }
       case x =>
         Future.successful(Left(x))
     }
   }
 
-
   def createKey(permission: String,
                 dayLimit: Int,
                 key: String): Future[Either[ServiceResponse, ApiKeyModel]] = {
-    checkKey(key, KeyPermissions.MODERATOR).flatMap {
-      case x if x.status == StatusType.Success =>
+    checkKey(key, "moderator").flatMap {
+      case x if x.status =>
         dao.getAll.flatMap { elements =>
-          val count: Long = elements.length + 1
           val key: String = randomKey(50)
-          val exactPermission: KeyPermissions = permission match {
-            case "standart" => KeyPermissions.STANDARD
-            case "moderator" => KeyPermissions.MODERATOR
-            case "admin" => KeyPermissions.ADMIN
-          }
-          val newKey = ApiKeyModel(count, key, exactPermission, 0, dayLimit)
+          val newKey = ApiKeyModel(new ObjectId(), key, permission, 0, dayLimit)
           dao.create(newKey).flatMap { x =>
-            dao.getSingle(key).map { x =>
-              Right(x.get)
-            }
+            dao.getSingle(key).map { x => Right(x) }
           }
         }
-      case x =>
-        Future.successful(Left(ServiceResponse(StatusType.Failure,
-                                          Some("Error. Not enough permissions"))))
+      case x => Future.successful(Left(x))
     }
   }
 
   def deleteKey(key: String,
                 title: String): Future[ServiceResponse] = {
-    checkKey(key, KeyPermissions.ADMIN).flatMap {
-      case x if x.status == StatusType.Success =>
+    checkKey(key, "admin").flatMap {
+      case x if x.status =>
         dao.getSingle(title).flatMap {
-          case x if x.isInstanceOf[Option[ApiKeyModel]] =>
+          case x if x.isInstanceOf[ApiKeyModel] =>
             dao.deleteSingle(title).map { message =>
-              ServiceResponse(StatusType.Success, None)
+              ServiceResponse(true, None)
             }
           case _ =>
-            Future.successful(ServiceResponse(StatusType.Failure,
+            Future.successful(ServiceResponse(false,
               Some("Error. Key not found")))
         }
       case x => Future.successful(x)
     }
   }
 
-  def checkKey(keyTitle: String, permission: KeyPermissions): Future[ServiceResponse] = {
+  def checkKey(keyTitle: String, permission: String): Future[ServiceResponse] = {
     dao.getSingle(keyTitle).map {
-      case Some(key) =>
+      case key if key != null =>
         key match {
-          case x if permission != x.permissions =>
-            ServiceResponse(StatusType.Failure, Some("Error. Not enough permissions"))
+          case x if permission == x.permissions =>
+            ServiceResponse(true, None)
+          case x if x.permissions == "admin" =>
+            ServiceResponse(true, None)
+          case x if x.permissions == "moderator" && permission == "standard" =>
+            ServiceResponse(true, None)
           case x if x.currentRequests > x.dayLimit =>
-            ServiceResponse(StatusType.Failure, Some("Error. Day limit has ended"))
+            ServiceResponse(false, Some("Error. Day limit has ended"))
           case _ =>
-            ServiceResponse(StatusType.Success, None)
+            ServiceResponse(true, None)
         }
-      case None =>
-        ServiceResponse(StatusType.Failure, Some("Error. Code not found"))
+      case x =>
+        ServiceResponse(false, Some("Error. Code not found"))
     }
   }
 

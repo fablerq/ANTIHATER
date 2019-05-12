@@ -3,19 +3,18 @@ package com.hack
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
-import com.hack.services.HttpService
 
 import scala.concurrent.ExecutionContext
 import scala.util.{Failure, Properties, Success}
-import com.hack.configs.Postgres.db
+import com.hack.configs.Mongo.database
+import com.hack.services.HttpService
 
-object Server extends App{
+object Server extends App {
   implicit val system: ActorSystem = ActorSystem("DD")
   implicit val executor: ExecutionContext = system.dispatcher
   implicit val materializer: ActorMaterializer = ActorMaterializer()
 
-  val httpService = new HttpService(db)
-
+  val httpService = new HttpService(database)
 
   //heroku var
   val myPort = Properties.envOrElse("PORT", "8080").toInt
@@ -25,3 +24,21 @@ object Server extends App{
     case Failure(e) => println(s"Could not start application: {}", e.getMessage)
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

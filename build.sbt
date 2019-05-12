@@ -13,12 +13,11 @@ lazy val root = (project in file("."))
       "com.typesafe.akka" %% "akka-http"            % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-stream"          % akkaVersion,
 
-      "com.typesafe.slick" %% "slick" % "3.2.0",
-      "com.typesafe.slick" %% "slick-hikaricp" % "3.2.0",
-      "org.postgresql" % "postgresql" % "9.4-1200-jdbc41",
+      "org.reactivestreams" % "reactive-streams" % "1.0.0",
       "ch.megard" %% "akka-http-cors" % "0.4.0",
       "org.json4s" %% "json4s-jackson" % "3.6.5",
       "net.liftweb" %% "lift-json" % "3.3.0",
+      "org.mongodb.scala" %% "mongo-scala-driver" % "2.1.0",
 
       "org.scalatest"     %% "scalatest"            % "3.0.1"         % Test
     )

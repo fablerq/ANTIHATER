@@ -1,7 +1,9 @@
 package com.hack.services
 
-import com.hack.models._
+import java.io.{BufferedWriter, File, FileWriter}
 
+import com.hack.models._
+import net.liftweb.json.{JsonAST, _}
 import sys.process._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -10,6 +12,7 @@ import scala.io.Source
 trait HandleService {
   def handleRequest(request: RequestModel): Future[Either[ServiceResponse,
     List[MessageResponseModel]]]
+  def writeToFile(messages: List[String]): Unit
   def calcClassifier(messages: List[String]): List[MessageCalcRequestModel]
 }
 
@@ -19,9 +22,10 @@ class HandleServiceImpl(authService: AuthService,
   def handleRequest(request: RequestModel): Future[Either[ServiceResponse,
                                                           List[MessageResponseModel]
                                                           ]] = {
-    authService.checkKey(request.apiKey.keyTitle, KeyPermissions.STANDARD).map {
-      case x if x.status == StatusType.Success =>
+    authService.checkKey(request.apiKey.keyTitle, "standard").map {
+      case x if x.status =>
         val messages: List[String] = request.messages.map(x => x.body)
+        writeToFile(messages)
         val data = calcClassifier(messages)
         val response: List[MessageResponseModel] =
           for {
@@ -41,17 +45,25 @@ class HandleServiceImpl(authService: AuthService,
     }
   }
 
-  def calcClassifier(messages: List[String]): List[MessageCalcRequestModel] = {
-    //write to file some data
-    //
-    s"python hackathon.py".!
-    val filename = "data2.txt"
-    var list: List[MessageCalcRequestModel] = List()
-    for (line <- Source.fromFile(filename).getLines) {
-      val data = line.split(" ")
-      val message = MessageCalcRequestModel(data(0).toInt, data(1))
-      list = list :+ message
+  def writeToFile(messages: List[String]): Unit = {
+    val file = new File("src/main/scala/data/data.txt")
+    val bw = new BufferedWriter(new FileWriter(file))
+    messages.map { x =>
+      bw.write(x)
+      bw.newLine()
     }
+    bw.close()
+  }
+
+  def calcClassifier(messages: List[String]): List[MessageCalcRequestModel] = {
+    s"python hackathon.py".!
+    val data =
+      parse(Source.fromFile("src/main/scala/data/data.json").mkString)
+    val list: List[MessageCalcRequestModel] = for {
+      JObject(x) <- data
+      JField("body", JString(body)) <- x
+      JField("classifier", JString(classifier)) <- x
+    } yield MessageCalcRequestModel(classifier.toInt, body)
     list
   }
 }
