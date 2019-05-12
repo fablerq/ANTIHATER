@@ -33,8 +33,8 @@ class HandleServiceImpl(authService: AuthService,
             responseMessage <- data
             if requestMessage.body == responseMessage.body
           } yield MessageResponseModel(responseMessage.classifier,
-            responseMessage.body,
-            requestMessage.extraSettings)
+                                        responseMessage.body,
+                                        requestMessage.extraSettings)
           data.map { message =>
             messageService.addMessage(request.apiKey,
                                       message.body,
@@ -56,15 +56,14 @@ class HandleServiceImpl(authService: AuthService,
   }
 
   def calcClassifier(messages: List[String]): List[MessageCalcRequestModel] = {
-    s"python hackathon.py".!
-//    val data =
-//      parse(Source.fromFile("src/main/scala/data/data2.txt").mkString)
-//    val list: List[MessageCalcRequestModel] = for {
-//      JObject(x) <- data
-//      JField("body", JString(body)) <- x
-//      JField("classifier", JString(classifier)) <- x
-//    } yield MessageCalcRequestModel(classifier.toInt, body)
-    messages.map(s => MessageCalcRequestModel(1,s))
-    //list
+    s"python script.py".!
+    val data =
+      parse(Source.fromFile("src/main/scala/data/data2.txt").mkString)
+    val list: List[MessageCalcRequestModel] = for {
+      JObject(x) <- data
+      JField("body", JString(body)) <- x
+      JField("classifier", JString(classifier)) <- x
+    } yield MessageCalcRequestModel(classifier.toInt, body)
+    list
   }
 }

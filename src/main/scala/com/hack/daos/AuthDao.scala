@@ -20,12 +20,10 @@ class AuthDaoImpl(authCollection: MongoCollection[ApiKeyModel]) extends AuthDao 
     authCollection.find().toFuture()
 
   def getSingle(title: String): Future[ApiKeyModel] = {
-    println("q"+title)
     authCollection.find(equal("keyTitle", title))
       .first()
       .toFuture()
   }
-
 
   def create(key: ApiKeyModel): Future[Completed] =
     authCollection.insertOne(key).toFuture()
