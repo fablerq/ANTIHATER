@@ -59,6 +59,8 @@ class HandleServiceImpl(authService: AuthService,
     s"python src/main/scala/data/script.py".!
     val data =
       parse(Source.fromFile("src/main/scala/data/result.json").mkString)
+    println("hey!")
+    println(data)
     val list: List[MessageCalcRequestModel] = for {
       JObject(x) <- data
       JField("body", JString(body)) <- x

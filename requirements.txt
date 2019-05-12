@@ -1,4 +1,3 @@
-LSTM
 anaconda
 tensorflow
 keras
