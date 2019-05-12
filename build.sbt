@@ -14,6 +14,7 @@ lazy val root = (project in file("."))
       "com.typesafe.akka" %% "akka-stream"          % akkaVersion,
 
       "com.typesafe.slick" %% "slick" % "3.2.0",
+      "com.typesafe.slick" %% "slick-hikaricp" % "3.2.0",
       "org.postgresql" % "postgresql" % "9.4-1200-jdbc41",
       "ch.megard" %% "akka-http-cors" % "0.4.0",
       "org.json4s" %% "json4s-jackson" % "3.6.5",
