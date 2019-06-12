@@ -16,7 +16,7 @@ object Server extends App {
 
   val httpService = new HttpService(database)
 
-  //heroku var
+  //heroku var, default to 8080
   val myPort = Properties.envOrElse("PORT", "8080").toInt
 
   Http().bindAndHandle(httpService.routes, "0.0.0.0", myPort).onComplete {

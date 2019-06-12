@@ -1,1 +1,1 @@
-Scala & Python
+Scala & Python project
